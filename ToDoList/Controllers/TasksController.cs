@@ -107,7 +107,7 @@ namespace ToDoList.Controllers
 
         // POST: Tasks/Delete/5
         [HttpPost]
-        [Authorize]
+    
         public ActionResult Delete( int id ,  string title)
         {
             TASK task = To_dO_List.taskList.Find(x => x.Id == id);

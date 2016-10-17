@@ -25,7 +25,7 @@ namespace ToDoList.Models
                     
                     task.Id = 0;
                     task.Title = "Start homework";
-                    task.Description = "What is todo list? Which properties";
+                    task.Description = "What is todo list?";
                     task.Date = Convert.ToDateTime("14/10/2016 9:00:00 AM");
                     task.IsReady = false;
 
